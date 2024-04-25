@@ -11,15 +11,15 @@ time.sleep(3)
 
 
 # Navigate to webpage
-#Open the page
+# Open the page
 driver.get("https://practicetestautomation.com/practice-test-login/")
 time.sleep(2)
 
-#Type username student into Username field
+# Type username student into Username field
 username_locator = driver.find_element(By.ID, "username")
 username_locator.send_keys("student")
 
-#Type password Password123 into Password field
+# Type password Password123 into Password field
 password_locator = driver.find_element(By.NAME, "password")
 password_locator.send_keys("Password123")
 
